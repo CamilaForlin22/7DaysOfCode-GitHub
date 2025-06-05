@@ -62,6 +62,7 @@ h2 {
 .movie {
   color: #FFF;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
@@ -70,8 +71,8 @@ h2 {
   padding: 1rem;
   margin: 0 auto;
   margin-bottom: 2rem;
-  max-width: 1024px;
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 720px;
+  /*box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);*/
 }
 
 .movie .movie-image {
@@ -128,7 +129,7 @@ h2 {
 }
 
 .movie-description {
-  max-width: 50%;
+  max-width: 45%;
   color: #ACACAC;
   font-weight: 400;
   font-size: 0.85rem;
